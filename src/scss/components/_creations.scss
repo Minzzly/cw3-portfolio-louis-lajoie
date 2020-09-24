@@ -1,0 +1,19 @@
+.creations{
+  div{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    .article-creation{
+      margin:var(--large-spacing);
+
+      h3{
+        font-size: var(--size-h3);
+      }
+    }
+  }
+
+}

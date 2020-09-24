@@ -1,0 +1,38 @@
+.hero {
+  background: var(--color-secondary);
+  padding: var(--large-spacing) var(--small-spacing) 0;
+
+  margin-bottom:var(--large-spacing);
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    h2 {
+      font-size: var(--size-h2);
+
+      span {
+        font-size: var(--size-h2-span);
+        text-transform: uppercase;
+      }
+    }
+
+    a{
+      color:var(--color-primary);
+      text-decoration: none;
+      text-transform: uppercase;
+
+      background:var(--color-gradient);
+      padding:var(--small-spacing) var(--large-spacing);
+    }
+
+    img{
+      width:60%;
+      margin-top:var(--large-spacing);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+nav {
+  margin:0 var(--small-spacing);
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding:0;
+
+    a {
+      text-decoration: none;
+      color: var(--color-tertiary);
+
+      &:hover {
+        text-decoration: underline;
+        color: var(--color-link-hover);
+      }
+
+      &:visited {
+        color: var(--color-link-visited);
+      }
+    }
+  }
+}

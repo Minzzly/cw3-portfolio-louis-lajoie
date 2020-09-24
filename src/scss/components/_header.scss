@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--small-spacing);
+
+  img {
+    margin-right: var(--large-spacing);
+  }
+
+  h1 {
+    font-size: var(--size-h1);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
