@@ -2,10 +2,6 @@
 :root {
   --small-spacing: 10px;
   --large-spacing: 20px;
-
-  //dimensions page
-  --max-width: 1200px;
-  --min-width: 335px;
 }
 
 //Media queries breakpoints
@@ -14,5 +10,5 @@ $vw-thin: 320px;
 $vw-small: 576px;
 $vw-medium: 768px;
 $vw-large: 992px;
-$vw-huge: var(--max-width);
+$vw-huge: 1200px;
 

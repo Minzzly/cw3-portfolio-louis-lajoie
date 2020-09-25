@@ -1,19 +1,36 @@
-.creations{
-  div{
-    display:flex;
-    flex-direction:column;
+.creations {
+  div {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     text-align: center;
 
-    .article-creation{
-      margin:var(--large-spacing);
+    .article-creation {
+      margin: var(--large-spacing);
 
-      h3{
+      h3 {
         font-size: var(--size-h3);
       }
     }
   }
 
+}
+
+@media screen and (min-width: $vw-medium) {
+  .creations div {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .article-creation {
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (min-width:$vw-huge) {
+  .creations div .article-creation {
+    width:25%;
+  }
 }

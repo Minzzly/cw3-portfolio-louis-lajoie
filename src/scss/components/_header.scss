@@ -14,3 +14,15 @@ header {
     text-transform: uppercase;
   }
 }
+
+@media screen and (min-width:$vw-medium){
+    .header-complet{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+
+      header{
+        width:70%;
+      }
+    }
+}
